@@ -1,0 +1,237 @@
+China: 1300000000
+India: 1070000000
+United States: 293000000
+Indonesia: 238000000
+Brazil: 184000000
+Pakistan: 159000000
+Russia: 144000000
+Bangladesh: 141000000
+Nigeria: 137000000
+Japan: 127000000
+Mexico: 105000000
+Philippines: 86200000
+Vietnam: 82700000
+Germany: 82400000
+Egypt: 76100000
+Iran: 69000000
+Turkey: 68900000
+Ethiopia: 67900000
+Thailand: 64900000
+France: 60400000
+United Kingdom: 60300000
+Congo, Democratic Republic of the: 58300000
+Italy: 58100000
+Korea, South: 48600000
+Ukraine: 47700000
+Burma: 42700000
+South Africa: 42700000
+Colombia: 42300000
+Spain: 40300000
+Argentina: 39100000
+Sudan: 39100000
+Poland: 38600000
+Tanzania: 36600000
+Canada: 32500000
+Morocco: 32200000
+Algeria: 32100000
+Kenya: 32000000
+Afghanistan: 28500000
+Peru: 27500000
+Nepal: 27100000
+Uganda: 26400000
+Uzbekistan: 26400000
+Saudi Arabia: 25800000
+Iraq: 25400000
+Venezuela: 25000000
+Malaysia: 23500000
+Korea, North: 22700000
+Taiwan: 22700000
+Romania: 22400000
+Ghana: 20800000
+Yemen: 20000000
+Australia: 19900000
+Sri Lanka: 19900000
+Mozambique: 18800000
+Syria: 18000000
+Madagascar: 17500000
+Cote d'Ivoire: 17300000
+Netherlands: 16300000
+Cameroon: 16100000
+Chile: 15800000
+Kazakhstan: 15100000
+Guatemala: 14300000
+Burkina Faso: 13600000
+Cambodia: 13400000
+Ecuador: 13200000
+Zimbabwe: 12700000
+Mali: 12000000
+Malawi: 11900000
+Niger: 11400000
+Cuba: 11300000
+Angola: 11000000
+Senegal: 10900000
+Serbia and Montenegro: 10800000
+Greece: 10600000
+Portugal: 10500000
+Zambia: 10500000
+Belarus: 10300000
+Belgium: 10300000
+Czech Republic: 10200000
+Hungary: 10000000
+Tunisia: 9970000
+Chad: 9540000
+Guinea: 9250000
+Sweden: 8990000
+Dominican Republic: 8830000
+Bolivia: 8720000
+Somalia: 8300000
+Austria: 8170000
+Rwanda: 7950000
+Azerbaijan: 7870000
+Haiti: 7660000
+Bulgaria: 7520000
+Switzerland: 7450000
+Benin: 7250000
+Tajikistan: 7010000
+Hong Kong: 6860000
+Honduras: 6820000
+El Salvador: 6590000
+Burundi: 6230000
+Israel: 6200000
+Paraguay: 6190000
+Laos: 6070000
+Sierra Leone: 5880000
+Libya: 5630000
+Jordan: 5610000
+Togo: 5560000
+Papua New Guinea: 5420000
+Slovakia: 5420000
+Denmark: 5410000
+Nicaragua: 5360000
+Finland: 5210000
+Kyrgyzstan: 5080000
+Turkmenistan: 4860000
+Georgia: 4690000
+Norway: 4570000
+Croatia: 4500000
+Eritrea: 4450000
+Moldova: 4450000
+Singapore: 4350000
+Bosnia and Herzegovina: 4010000
+New Zealand: 3990000
+Ireland: 3970000
+Costa Rica: 3960000
+Puerto Rico: 3900000
+Lebanon: 3780000
+Central African Republic: 3740000
+Lithuania: 3610000
+Albania: 3540000
+Uruguay: 3400000
+Liberia: 3390000
+Congo, Republic of the: 3000000
+Mauritania: 3000000
+Panama: 3000000
+Armenia: 2990000
+Oman: 2900000
+Mongolia: 2750000
+Jamaica: 2710000
+United Arab Emirates: 2520000
+Latvia: 2310000
+West Bank: 2310000
+Kuwait: 2260000
+Bhutan: 2190000
+Macedonia: 2070000
+Slovenia: 2010000
+Namibia: 1950000
+Lesotho: 1870000
+Botswana: 1560000
+Gambia, The: 1550000
+Guinea-Bissau: 1390000
+Gabon: 1360000
+Estonia: 1340000
+Gaza Strip: 1320000
+Mauritius: 1220000
+Swaziland: 1170000
+Trinidad and Tobago: 1100000
+East Timor: 1020000
+Fiji: 881000
+Qatar: 840000
+Cyprus: 776000
+Reunion: 766000
+Guyana: 706000
+Bahrain: 678000
+Comoros: 652000
+Solomon Islands: 524000
+Equatorial Guinea: 523000
+Djibouti: 467000
+Luxembourg: 463000
+Guadeloupe: 445000
+Macau: 445000
+Suriname: 437000
+Martinique: 430000
+Cape Verde: 415000
+Malta: 397000
+Brunei: 365000
+Maldives: 339000
+Bahamas, The: 300000
+Iceland: 294000
+Barbados: 278000
+Belize: 273000
+Western Sahara: 267000
+French Polynesia: 266000
+Netherlands Antilles: 218000
+New Caledonia: 214000
+Vanuatu: 203000
+French Guiana: 191000
+Mayotte: 186000
+Sao Tome and Principe: 182000
+Samoa: 178000
+Guam: 166000
+Saint Lucia: 164000
+Saint Vincent and the Grenadines: 117000
+Tonga: 110000
+Virgin Islands: 109000
+Micronesia, Federated States of: 108000
+Kiribati: 101000
+Jersey: 90500
+Grenada: 89400
+Seychelles: 80800
+Northern Mariana Islands: 78300
+Man, Isle of: 74700
+Aruba: 71200
+Andorra: 69900
+Dominica: 69300
+Antigua and Barbuda: 68300
+Guernsey: 65000
+Bermuda: 64900
+American Samoa: 57900
+Marshall Islands: 57700
+Greenland: 56400
+Faroe Islands: 46700
+Cayman Islands: 43100
+Saint Kitts and Nevis: 38800
+Liechtenstein: 33400
+Monaco: 32300
+San Marino: 28500
+Gibraltar: 27800
+British Virgin Islands: 22200
+Cook Islands: 21200
+Palau: 20000
+Turks and Caicos Islands: 20000
+Wallis and Futuna: 15900
+Anguilla: 13000
+Nauru: 12800
+Tuvalu: 11500
+Montserrat: 9250
+Saint Helena: 7420
+Saint Pierre and Miquelon: 7000
+Falkland Islands (Islas Malvinas): 2970
+Svalbard: 2760
+Niue: 2160
+Norfolk Island: 1840
+Tokelau: 1410
+Holy See (Vatican City): 921
+Cocos (Keeling) Islands: 629
+Christmas Island: 396
+Johnston Atoll: 396
+Pitcairn Islands: 46
