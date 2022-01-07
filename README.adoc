@@ -1,3 +1,0 @@
-= BI-PYT assignments
-
-You will find assignments for a specific semester in a corresponding git branch, e.g. **B191**.
