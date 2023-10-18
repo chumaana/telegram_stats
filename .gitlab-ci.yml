@@ -4,8 +4,9 @@
 # Even a slight change will make the signature invalid and the CI pipelines will stop working for you.
 # If that happens you need to restore the original content of this file.
 
+# image je, zda se, nedostupny, byval tam python 3.8
 #image: python-custom:latest
-image: ${CI_DEPENDENCY_PROXY_GROUP_IMAGE_PREFIX}/python-custom:latest
+image: python:3.11-slim
 
 variables:
   CONFIG_VERSION: 1
@@ -44,7 +45,7 @@ test-homework01-private:
 validate-homework01:
   stage: validate
   variables:
-    ASSIGNMENT_DEADLINE: "2023-11-05T23:59:59"
+    ASSIGNMENT_DEADLINE: "2023-04-02T23:59:59"
   tags:
     - bi-pyt-assignment-validate
   script:
@@ -87,7 +88,7 @@ test-homework02-private:
 validate-homework02:
   stage: validate
   variables:
-    ASSIGNMENT_DEADLINE: "2023-11-19T23:59:59"
+    ASSIGNMENT_DEADLINE: "2023-04-16T23:59:59"
   tags:
     - bi-pyt-assignment-validate
   script:
@@ -129,7 +130,7 @@ test-homework03-private:
 validate-homework03:
   stage: validate
   variables:
-    ASSIGNMENT_DEADLINE: "2023-12-03T23:59:59"
+    ASSIGNMENT_DEADLINE: "2023-04-30T23:59:59"
   tags:
     - bi-pyt-assignment-validate
   script:
@@ -172,7 +173,7 @@ test-homework04-private:
 validate-homework04:
   stage: validate
   variables:
-    ASSIGNMENT_DEADLINE: "2023-12-17T23:59:59"
+    ASSIGNMENT_DEADLINE: "2023-05-14T23:59:59"
   tags:
     - bi-pyt-assignment-validate
   script:
