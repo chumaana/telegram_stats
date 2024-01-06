@@ -74,7 +74,7 @@ def display_statistics():
     conn.close()
 
 async def display_chat_info(lb,info_text):
-    info_text.pack()
+    # info_text.pack()
     selected_index = lb.curselection()  # Get the index of the selected item
     if selected_index:
         selected_chat_name = lb.get(selected_index)  # Get the selected chat name
