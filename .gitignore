@@ -116,5 +116,6 @@ dmypy.json
 .pyre/
 
 
-config.ini
+*.ini
+!config_example.ini
 *.session
