@@ -9,8 +9,6 @@
 
 
 # # Your API ID and Hash obtained from Telegram API registration
-# api_id = '21100329'
-# api_hash = '2c43a0411d23684882eb623829f1fde6'
 
 
 # phonNumber = '+3806632103424'  # Your phone number with country code (+1234567890)

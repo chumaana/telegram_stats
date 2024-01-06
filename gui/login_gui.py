@@ -1,6 +1,8 @@
 
 import asyncio
 import tkinter as tk
+import ttkbootstrap as ttb
+from ttkbootstrap.constants import *
 
 # from  telegram_client import verify,start
 from src import telegram_client
@@ -75,21 +77,25 @@ def create_login_window():
      
     telegram_client.root.title("Telegram Login")
 
-    phone_label = tk.Label(telegram_client.root, text="Log in:")
-    phone_label.pack()
+    phone_label = ttb.Label(telegram_client.root, text="Log in:")
+    # phone_label.pack()
+    phone_label.place(relx=0.5, rely=0.4,anchor="center")
 
 
-    telegram_client.username_entry.pack()
-    telegram_client.username_entry.insert(0,"piopl")
-    telegram_client.phone_entry.pack()
+    telegram_client.phone_entry.place(relx=0.5, rely=0.45,anchor="center")
+    telegram_client.username_entry.place(relx=0.5, rely=0.5,anchor="center")
+
+    # telegram_client.username_entry.pack()
+    telegram_client.username_entry.insert(0,"pitopl")
+    # telegram_client.phone_entry.pack()
     telegram_client.phone_entry.insert(0,"+380663210324")
 
 
 
 
-    login_button = tk.Button(telegram_client.root, text="Login", command=start)
-
-    login_button.pack()
+    login_button = ttb.Button(telegram_client.root, text="Login", command=start)
+    
+    login_button.place(relx=0.5, rely=0.55,anchor="center")
 
     telegram_client.root.mainloop()
 

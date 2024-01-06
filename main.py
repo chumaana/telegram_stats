@@ -3,7 +3,7 @@ import configparser
 import sqlite3
 
 from gui import login_gui
-from db import chats,stats
+from db import chats,messages,users
 
 # from gui.chat_list_window import create_chat_list_window
 def clear_table():
@@ -11,8 +11,10 @@ def clear_table():
     cursor = conn.cursor()
 
     # Удаляем все записи из таблицы types
-    cursor.execute('DELETE FROM statistics')
+    cursor.execute('DELETE FROM messages')
     cursor.execute('DELETE FROM chats')
+    cursor.execute('DELETE FROM users')
+
 
     conn.commit()
     conn.close()
@@ -24,7 +26,8 @@ def main():
     # api_id = config['Telegram']['api_id']
     # api_hash = config['Telegram']['api_hash']
     chats.create_chats_table()
-    stats.create_statistics_table()
+    messages.create_messages_table()
+    users.create_users_table()
 
     login_gui.create_login_window()
     print("end")

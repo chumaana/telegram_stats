@@ -4,12 +4,18 @@
 import asyncio
 import configparser
 import tkinter as tk
-from telethon import TelegramClient, errors
 
+import ttkbootstrap as ttb
+from telethon import TelegramClient, errors
+from ttkbootstrap.constants import *
 
 # from gui import chat_list_gui
 # from gui import login_gui
 # from gui import get_verification_data
+
+def toggle_fullscreen(event=None):
+    root.attributes("-fullscreen", not root.attributes("-fullscreen"))
+
 
 config = configparser.ConfigParser()
 config.read("config.ini")
@@ -22,10 +28,23 @@ api_hash = str(api_hash)
 phone=0
 username=""
 root = tk.Tk()
-phone_entry = tk.Entry(root)
-code_entry = tk.Entry(root)
-password_entry = tk.Entry(root)
-username_entry = tk.Entry(root)
+root.attributes('-fullscreen', True)
+style= ttb.Style(theme="darkly")
+style.theme_use()
+# frame = tk.Frame(root)
+# frame = ttb.Frame(root, style='My.TFrame')
+# frame.pack(expand=True, fill='both')
+# frame.place(relx=0.5, rely=0.5, anchor='center')
+root.bind("<Escape>", toggle_fullscreen)  # Bind Escape key to toggle fullscreen
+
+toggle_fullscreen()
+phone_entry = ttb.Entry(root)
+code_entry = ttb.Entry(root)
+# code_entry.place(relx=0.5, rely=0.4, anchor='center')
+password_entry = ttb.Entry(root)
+# password_entry.place(relx=0.5, rely=0.5, anchor='center')
+username_entry = ttb.Entry(root)
+# username_entry.place(relx=0.5, rely=0.6, anchor='center')
 # client = 0
 
 # def get_client():
