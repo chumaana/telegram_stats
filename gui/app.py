@@ -135,7 +135,7 @@ from datetime import date, datetime
 
 # import asyncio
 import tkinter as tk
-from telethon import TelegramClient, events, errors
+from telethon import TelegramClient, errors
 
 
 
