@@ -10,5 +10,6 @@ test-telegram_stats:
 
 before_script:
   - pip install pylint>=2.13 || true
+  - pip install pytest|| true
   - pytest --version
   - pylint --version
