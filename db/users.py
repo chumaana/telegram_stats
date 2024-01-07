@@ -1,10 +1,18 @@
+"""
+Users module
+
+"""
 import sqlite3
 
-db_name="telegram_stats_db.db"
+DB_NAME = "telegram_stats_db.db"
 
 
 def create_users_table():
-    conn = sqlite3.connect(db_name)
+    """
+    Create users table
+
+    """
+    conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -12,12 +20,10 @@ def create_users_table():
             id INTEGER PRIMARY KEY,
             user_id INTEGER,
             phone TEXT,
-            name TEXT, 
+            name TEXT,
             username TEXT
-             
         )
     ''')
 
     conn.commit()
     conn.close()
-

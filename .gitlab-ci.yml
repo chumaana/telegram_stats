@@ -1,0 +1,17 @@
+stages:
+  - test
+
+########################################################################
+test-telegram_stats:
+  stage: test
+  tags:
+    - test_semestral
+  script:
+    - sudo -u nobody pytest -c /etc/config/pytest.ini -s tests/test_ui.py
+
+########################################################################
+before_script:
+  #  - pip install pytest pytest-timeout pylint>=2.13 numpy>=1.23.5 pillow ipython pandas matplotlib opencv-python-headless
+  - pip install pylint>=2.13 || true
+  - pytest --version
+  - pylint --version

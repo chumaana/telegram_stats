@@ -1,8 +1,18 @@
+"""
+Chat module
+
+"""
 import sqlite3
-db_name="telegram_stats_db.db"
+
+DB_NAME = "telegram_stats_db.db"
+
 
 def create_chats_table():
-    conn = sqlite3.connect(db_name)
+    """
+    Create chat table
+
+    """
+    conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
 
     cursor.execute('''
@@ -17,8 +27,15 @@ def create_chats_table():
     conn.commit()
     conn.close()
 
+
 def save_chat_to_db(chat):
-    conn = sqlite3.connect(db_name)
+    """
+    Save chat records to DB
+    
+    :param chat: xxxxxxxxx
+
+    """
+    conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
 
     cursor.execute('''

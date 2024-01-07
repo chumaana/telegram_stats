@@ -1,0 +1,11 @@
+python>=3.8
+pytest
+pytest-timeout 
+pylint>=2.13 
+ipython 
+tkinter
+ttkbootstrap
+asyncio
+sqlite3
+telethon
+
