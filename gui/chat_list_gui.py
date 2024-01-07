@@ -4,7 +4,7 @@ import tkinter as tk
 
 import ttkbootstrap as ttb
 from db import chats, messages, users
-from gui import login_gui
+from gui import login_gui,stats_gui
 from src import telegram_client
 from telethon import TelegramClient, errors
 from telethon.tl.types import User
@@ -21,7 +21,7 @@ label = ttb.Label(telegram_client.root, text="Press to get your chats list")
 fetch_chats_button = ttb.Button(telegram_client.root, text="Fetch Chats", command=lambda: asyncio.get_event_loop().run_until_complete(fetch_and_populate(lisb)))
 info_text = ttb.Text(telegram_client.root, height=5, width=40)
 
-get_info_button = ttb.Button(telegram_client.root, text="Get Info", command=lambda: asyncio.get_event_loop().run_until_complete(display_chat_info(lisb,info_text)))
+get_info_button = ttb.Button(telegram_client.root, text="Get Info", command=lambda: asyncio.get_event_loop().run_until_complete(display_chat_info(lisb)))
 chat_list=[]
 users_list=[]
 def open_new_window():
@@ -60,11 +60,6 @@ async def populate_listbox(lb):
 
 # root = tk.Tk()
 # root.title("Telegram Login")
-async def loading():
-    print("knkjnkj")
-    fetch_chats_button.destroy()
-    label_loading =  ttb.Label(telegram_client.root, text="Loading...")
-    label_loading.place(relx=0.5, rely=0.3,anchor="center")
 
 async def fetch_and_populate(lb):
     global label
@@ -101,19 +96,19 @@ async def fetch_and_populate(lb):
     label.place(relx=0.5, rely=0.3,anchor="center")
     lb.place(relx=0.5, rely=0.5,anchor="center")
 
-def display_statistics():
-    conn = sqlite3.connect(db_name)
-    cursor = conn.cursor()
+# def display_statistics():
+#     conn = sqlite3.connect(db_name)
+#     cursor = conn.cursor()
 
-    # Выбираем все записи из таблицы statistics
-    cursor.execute('SELECT * FROM messages')
-    rows = cursor.fetchall()
+#     # Выбираем все записи из таблицы statistics
+#     cursor.execute('SELECT * FROM messages')
+#     rows = cursor.fetchall()
 
-    # Выводим данные
-    for row in rows:
-        print(row)
+#     # Выводим данные
+#     for row in rows:
+#         print(row)
 
-    conn.close()
+#     conn.close()
 
 async def display_chat_info(lb,info_text):
     # info_text.pack()
@@ -146,8 +141,8 @@ async def display_chat_info(lb,info_text):
                 # info_text.insert(tk.END, f"Chat Name: {chat[0]}\n")
                 await save_users(login_gui.client, chat[1])
                 # info_text.insert(tk.END, f"Chat ID: {chat[1]}\n")
-    display_statistics()
-    await get_users()
+    stats_gui.display_stats()
+    # await get_users()
 
 
 async def save_chats():
