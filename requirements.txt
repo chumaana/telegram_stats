@@ -8,4 +8,7 @@ ttkbootstrap
 asyncio
 sqlite3
 telethon
+pytest
+pytest-timeout 
+pylint>=2.13 
 
